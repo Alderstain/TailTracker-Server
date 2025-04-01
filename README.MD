@@ -1,1 +1,1 @@
-Чтобы запустить, выполни команду */docker-compose up --build/* из папки с проектом. Эмулятор esp32 отсутсвует, для проверки можно использовать команду 8/docker exec mosquitto mosquitto_pub -t "sensors/esp32_data" -m '{"accel":1.23,"rssi":-65,"ts":'$(date +%s)'}'*/
+Чтобы запустить, выполни команду */docker-compose up --build/* из папки с проектом. Эмулятор esp32 отсутсвует, для проверки можно использовать команду */docker exec mosquitto mosquitto_pub -t "sensors/esp32_data" -m '{"accel":1.23,"rssi":-65,"ts":'$(date +%s)'}'/*
