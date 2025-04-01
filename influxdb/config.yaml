@@ -1,0 +1,5 @@
+api:
+  log-enabled: true
+storage:
+  log-enabled: true
+  trace-logging-enabled: false
